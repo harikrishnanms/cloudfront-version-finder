@@ -7,4 +7,6 @@ jobs:
       - name: Greetings
         run: echo "Hello team"
       - name: showing time
-        run: echo "Time is - " $(date)
+        run: |
+        echo "Time is - " $(date)
+        echo "I am running on" $(uname -a)

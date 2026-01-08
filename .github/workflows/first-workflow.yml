@@ -8,5 +8,5 @@ jobs:
         run: echo "Hello team"
       - name: showing time
         run: |
-        echo "Time is - " $(date)
-        echo "I am running on" $(uname -a)
+          echo "Time is - " $(date):
+          echo "I am running on" $(uname -a)

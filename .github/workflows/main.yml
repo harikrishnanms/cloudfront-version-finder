@@ -1,7 +1,7 @@
 name: second workflow
 on: push
 jobs:
-  test:
+  Checking_Actions:
     runs-on: ubuntu-latest
     steps:
       - name: get code
@@ -9,7 +9,7 @@ jobs:
       - name: install NodeJs
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 12
       - name: install dependencies
         run: npm ci
       - name: Run tests

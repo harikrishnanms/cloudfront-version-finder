@@ -9,7 +9,7 @@ jobs:
       - name: install NodeJs
         uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 5
       - name: install dependencies
         run: npm ci
       - name: Run tests
